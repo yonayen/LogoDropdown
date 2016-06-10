@@ -15,3 +15,9 @@
 	cursor: pointer;
 }
 
+/*-- Container <div> for positioning dropdown --*/
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}

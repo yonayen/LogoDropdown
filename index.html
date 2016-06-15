@@ -10,39 +10,37 @@
 <body>
 
 	<h1>Cool Logos</h1>
-
+​
 		<div class="dropdown">
 			<button class="dropbtn">Program Type</button>
 			<div class="dropdown-content">
-				<a href="#">Search All</a>
-				<a href="#">Scholarship Program</a>
-				<a href="#">Loan Program</a>
+				<a class="filter type" data-filter="all" href="#">Search All</a>
+				<a class="filter type" data-filter="scholarship" href="#">Scholarship Program</a>
+				<a class="filter type" data-filter="loan" href="#">Loan Program</a>
 			</div>
 		</div>
-
+​
 		<div class="dropdown">
 			<button class="dropbtn">Education Level</button>
 			<div class="dropdown-content">
-				<a href="#">Search All</a>
-				<a href="#">Kindergarten</a>
-				<a href="#">High School</a>
+				<a class="filter level" data-filter="all" href="#">Search All</a>
+				<a class="filter level" data-filter="kindergarten" href="#">Kindergarten</a>
+				<a class="filter level" data-filter="highschool" href="#">High School</a>
 			</div>
 		</div>
-
+​
 		<button class="search">Search</button>
-
-
+​
+​
 	<section class="logos">
 		<table>
 		  <tr>
-		    <td class="item1 light"><img src="images/aci.png"></td>
-		    <td class="item2 color"><img src="images/aci - color.png"></td>
-		    <td class="item3 light"><img src="images/acm - fade copy 2.png"></td>
+		    <td class="item1 loan highschool grayscale"><img src="images/aci.png"></td>
+		    <td class="item2 loan highschool color"><img src="images/aci - color.png"></td>
 		  </tr>
 		  <tr>
-		    <td class="item4 color"><img src="images/acm - color.png"></td>
-		    <td class="item5 color"><img src="images/AFE color.png"></td>
-		    <td class="item6"></td>
+		    <td class="item3 loan kindergarten grayscale"><img src="images/acm - fade copy 2.png"></td>
+		    <td class="item4 loan kindergarten color"><img src="images/acm - color.png"></td>
 		  </tr>
 		  <tr>
 		    <td class="item7"></td>
@@ -51,10 +49,9 @@
 		  </tr>
 		</table>
 	</section>
-
-
+​
 
 	<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-	<script src="apps/app.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>

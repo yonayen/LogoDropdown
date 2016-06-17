@@ -10,3 +10,18 @@ $('yourButtons').click(function() {
     $('.product_image').attr('src','second.jpg');
 });
 });
+
+$function()
+{
+	$(".color").hide();
+	$(".grayscale").show();
+​
+	$(".filter").on("click",function()
+	{
+		$(".color").hide();
+		$(".grayscale").hide();
+		$(".color." + $(this).data("filter")).show();
+	});
+​
+});
+​

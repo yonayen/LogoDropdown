@@ -1,4 +1,8 @@
 
+$function(){
+	$(".color").hide();
+	$
+};
 $function()
 {
 	$(".color").hide();

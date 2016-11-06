@@ -20,9 +20,9 @@ function()
 }
 
 
-	// .css( "opacity", 1 )
-  //   .fadeIn( 30 )
-  //   .fadeOut( 1000 );
+	.css( "opacity", 1 )
+    .fadeIn( 30 )
+    .fadeOut( 1000 );
 
 
 // on click 'value of data-filter' show color and hide grayscale

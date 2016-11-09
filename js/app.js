@@ -20,8 +20,8 @@ function()
 }
 
 
-	.css( "opacity", 1 )
-    .fadeIn( 30 )
+		.css( "opacity", 1 )
+		.fadeIn( 30 )
     .fadeOut( 1000 );
 
 
